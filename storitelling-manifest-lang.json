@@ -1,0 +1,53 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/manifest",
+  "@type" : "sc:Manifest",
+  "label" : {
+    "@value" : "test story, 4science",
+    "@language" : "en"
+  },
+  "description" : {
+    "@value" : "Story description abstract"
+  },
+  "sequences" : [ {
+    "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/sequence/normal",
+    "@type" : "sc:Sequence",
+    "label" : {
+      "@value" : "test story, 4science",
+      "@language" : "en"
+    },
+    "canvases" : [ {
+      "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd11",
+      "@type" : "sc:Canvas",
+      "label" : "canvas [PRIMO]",
+      "images" : [ {
+        "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd11/painting/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd11",
+        "resource" : {
+          "@id" : "http://localhost:8080/server/api/core/bitstreams/04845cbf-8f0c-474a-b704-c1506360bd11/content",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        }
+      } ],
+      "otherContent" : [ "http://localhost:8080/server/annotation/search?uri=http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd11" ]
+    }, {
+      "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd22",
+      "@type" : "sc:Canvas",
+      "label" : "canvas [SECONDO]",
+      "images" : [ {
+        "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd22/painting/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd22",
+        "resource" : {
+          "@id" : "http://localhost:8080/server/api/core/bitstreams/04845cbf-8f0c-474a-b704-c1506360bd22/content",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        }
+      } ],
+      "otherContent" : [ "http://localhost:8080/server/annotation/search?uri=http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd22" ]
+    } ]
+  } ]
+}
