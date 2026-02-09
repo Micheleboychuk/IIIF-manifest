@@ -4,11 +4,11 @@
     "@type": "sc:Manifest",
     "label":
     {
-        "value": "Test Story"
+        "@value": "Test Story"
     },
     "description":
     {
-        "value": "Story description"
+        "@value": "Story description"
     },
     "sequences":
     [
@@ -17,7 +17,7 @@
             "@type": "sc:Sequence",
             "label":
             {
-                "value": "Test Story"
+                "@value": "Test Story"
             },
             "canvases":
             [
