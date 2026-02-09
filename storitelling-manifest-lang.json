@@ -1,53 +1,79 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/manifest",
-  "@type" : "sc:Manifest",
-  "label" : {
-    "@value" : "test story, 4science",
-    "@language" : "en"
-  },
-  "description" : {
-    "@value" : "Story description abstract"
-  },
-  "sequences" : [ {
-    "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/sequence/normal",
-    "@type" : "sc:Sequence",
-    "label" : {
-      "@value" : "test story, 4science",
-      "@language" : "en"
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/manifest",
+    "@type": "sc:Manifest",
+    "label":
+    {
+        "value": "Test Story"
     },
-    "canvases" : [ {
-      "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd11",
-      "@type" : "sc:Canvas",
-      "label" : "canvas [PRIMO]",
-      "images" : [ {
-        "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd11/painting/annotation",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd11",
-        "resource" : {
-          "@id" : "http://localhost:8080/server/api/core/bitstreams/04845cbf-8f0c-474a-b704-c1506360bd11/content",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
+    "description":
+    {
+        "value": "Story description"
+    },
+    "sequences":
+    [
+        {
+            "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/sequence/normal",
+            "@type": "sc:Sequence",
+            "label":
+            {
+                "value": "Test Story"
+            },
+            "canvases":
+            [
+                {
+                    "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/8766d53f-4fe4-437f-aa69-4e4683383a10",
+                    "@type": "sc:Canvas",
+                    "label": "Canvas from Item 1",
+                    "width": 800,
+                    "height": 1200,
+                    "images":
+                    [
+                        {
+                            "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/8766d53f-4fe4-437f-aa69-4e4683383a10/painting/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/8766d53f-4fe4-437f-aa69-4e4683383a10",
+                            "resource":
+                            {
+                                "@id": "http://localhost/api/core/bitstreams/8766d53f-4fe4-437f-aa69-4e4683383a10/content",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg"
+                            }
+                        }
+                    ],
+                    "otherContent":
+                    [
+                        "http://localhost/annotation/search?uri=http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/8766d53f-4fe4-437f-aa69-4e4683383a10"
+                    ]
+                },
+                {
+                    "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/19f69d50-17c5-4d57-a33f-de61e103917c",
+                    "@type": "sc:Canvas",
+                    "label": "Canvas from Item 2",
+                    "width": 800,
+                    "height": 1200,
+                    "images":
+                    [
+                        {
+                            "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/19f69d50-17c5-4d57-a33f-de61e103917c/painting/annotation",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/19f69d50-17c5-4d57-a33f-de61e103917c",
+                            "resource":
+                            {
+                                "@id": "http://localhost/api/core/bitstreams/19f69d50-17c5-4d57-a33f-de61e103917c/content",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg"
+                            }
+                        }
+                    ],
+                    "otherContent":
+                    [
+                        "http://localhost/annotation/search?uri=http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/19f69d50-17c5-4d57-a33f-de61e103917c"
+                    ]
+                }
+            ]
         }
-      } ],
-      "otherContent" : [ "http://localhost:8080/server/annotation/search?uri=http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd11" ]
-    }, {
-      "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd22",
-      "@type" : "sc:Canvas",
-      "label" : "canvas [SECONDO]",
-      "images" : [ {
-        "@id" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd22/painting/annotation",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "on" : "http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd22",
-        "resource" : {
-          "@id" : "http://localhost:8080/server/api/core/bitstreams/04845cbf-8f0c-474a-b704-c1506360bd22/content",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
-        }
-      } ],
-      "otherContent" : [ "http://localhost:8080/server/annotation/search?uri=http://localhost:8080/server/iiif/b75f5ce5-7bf4-4978-8175-7098b4846981/canvas/04845cbf-8f0c-474a-b704-c1506360bd22" ]
-    } ]
-  } ]
+    ]
 }
