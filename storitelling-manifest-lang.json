@@ -1,79 +1,49 @@
 {
-    "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/manifest",
-    "@type": "sc:Manifest",
-    "label":
-    {
-        "@value": "Test Story"
-    },
-    "description":
-    {
-        "@value": "Story description"
-    },
-    "sequences":
-    [
-        {
-            "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/sequence/normal",
-            "@type": "sc:Sequence",
-            "label":
-            {
-                "@value": "Test Story"
-            },
-            "canvases":
-            [
-                {
-                    "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/8766d53f-4fe4-437f-aa69-4e4683383a10",
-                    "@type": "sc:Canvas",
-                    "label": "Canvas from Item 1",
-                    "width": 800,
-                    "height": 1200,
-                    "images":
-                    [
-                        {
-                            "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/8766d53f-4fe4-437f-aa69-4e4683383a10/painting/annotation",
-                            "@type": "oa:Annotation",
-                            "motivation": "sc:painting",
-                            "on": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/8766d53f-4fe4-437f-aa69-4e4683383a10",
-                            "resource":
-                            {
-                                "@id": "http://localhost/api/core/bitstreams/8766d53f-4fe4-437f-aa69-4e4683383a10/content",
-                                "@type": "dctypes:Image",
-                                "format": "image/jpeg"
-                            }
-                        }
-                    ],
-                    "otherContent":
-                    [
-                        "http://localhost/annotation/search?uri=http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/8766d53f-4fe4-437f-aa69-4e4683383a10"
-                    ]
-                },
-                {
-                    "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/19f69d50-17c5-4d57-a33f-de61e103917c",
-                    "@type": "sc:Canvas",
-                    "label": "Canvas from Item 2",
-                    "width": 800,
-                    "height": 1200,
-                    "images":
-                    [
-                        {
-                            "@id": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/19f69d50-17c5-4d57-a33f-de61e103917c/painting/annotation",
-                            "@type": "oa:Annotation",
-                            "motivation": "sc:painting",
-                            "on": "http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/19f69d50-17c5-4d57-a33f-de61e103917c",
-                            "resource":
-                            {
-                                "@id": "http://localhost/api/core/bitstreams/19f69d50-17c5-4d57-a33f-de61e103917c/content",
-                                "@type": "dctypes:Image",
-                                "format": "image/jpeg"
-                            }
-                        }
-                    ],
-                    "otherContent":
-                    [
-                        "http://localhost/annotation/search?uri=http://localhost/iiif/dc65826c-2ad3-4d7b-8f61-accc4b912ace/canvas/19f69d50-17c5-4d57-a33f-de61e103917c"
-                    ]
-                }
-            ]
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/manifest",
+  "@type" : "sc:Manifest",
+  "label" : "Test Story",
+  "description" : "Story description",
+  "sequences" : [ {
+    "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/sequence/normal",
+    "@type" : "sc:Sequence",
+    "label" : "Test Story",
+    "canvases" : [ {
+      "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/5cc38e6e-3701-438a-8be8-4d61f9c61998",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas from Item 1",
+      "width" : 800,
+      "height" : 1200,
+      "images" : [ {
+        "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/5cc38e6e-3701-438a-8be8-4d61f9c61998/painting/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/5cc38e6e-3701-438a-8be8-4d61f9c61998",
+        "resource" : {
+          "@id" : "http://localhost/api/core/bitstreams/5cc38e6e-3701-438a-8be8-4d61f9c61998/content",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
         }
-    ]
+      } ],
+      "otherContent" : [ "http://localhost/annotation/search?uri=http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/5cc38e6e-3701-438a-8be8-4d61f9c61998" ]
+    }, {
+      "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/bbed4df5-9226-434c-89ce-91e5d121aeae",
+      "@type" : "sc:Canvas",
+      "label" : "Canvas from Item 2",
+      "width" : 800,
+      "height" : 1200,
+      "images" : [ {
+        "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/bbed4df5-9226-434c-89ce-91e5d121aeae/painting/annotation",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/bbed4df5-9226-434c-89ce-91e5d121aeae",
+        "resource" : {
+          "@id" : "http://localhost/api/core/bitstreams/bbed4df5-9226-434c-89ce-91e5d121aeae/content",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg"
+        }
+      } ],
+      "otherContent" : [ "http://localhost/annotation/search?uri=http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/bbed4df5-9226-434c-89ce-91e5d121aeae" ]
+    } ]
+  } ]
 }
