@@ -1,49 +1,55 @@
 {
   "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/manifest",
+  "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/manifest",
   "@type" : "sc:Manifest",
   "label" : "Test Story",
   "description" : "Story description",
   "sequences" : [ {
-    "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/sequence/normal",
+    "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/sequence/normal",
     "@type" : "sc:Sequence",
     "label" : "Test Story",
     "canvases" : [ {
-      "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/5cc38e6e-3701-438a-8be8-4d61f9c61998",
+      "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/acac8f2e-c95b-43fb-a327-58cc133d2d3f",
       "@type" : "sc:Canvas",
       "label" : "Canvas from Item 1",
       "width" : 800,
       "height" : 1200,
       "images" : [ {
-        "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/5cc38e6e-3701-438a-8be8-4d61f9c61998/painting/annotation",
+        "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/acac8f2e-c95b-43fb-a327-58cc133d2d3f/painting/annotation",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
-        "on" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/5cc38e6e-3701-438a-8be8-4d61f9c61998",
+        "on" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/acac8f2e-c95b-43fb-a327-58cc133d2d3f",
         "resource" : {
-          "@id" : "http://localhost/api/core/bitstreams/5cc38e6e-3701-438a-8be8-4d61f9c61998/content",
+          "@id" : "http://localhost/api/core/bitstreams/acac8f2e-c95b-43fb-a327-58cc133d2d3f/content",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg"
         }
       } ],
-      "otherContent" : [ "http://localhost/annotation/search?uri=http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/5cc38e6e-3701-438a-8be8-4d61f9c61998" ]
+      "otherContent" : [ {
+        "@id" : "http://localhost/annotation/search?uri=http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/acac8f2e-c95b-43fb-a327-58cc133d2d3f",
+        "@type" : "sc:AnnotationList"
+      } ]
     }, {
-      "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/bbed4df5-9226-434c-89ce-91e5d121aeae",
+      "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/8092bcf0-acc8-4eec-adcf-381c70220dda",
       "@type" : "sc:Canvas",
       "label" : "Canvas from Item 2",
       "width" : 800,
       "height" : 1200,
       "images" : [ {
-        "@id" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/bbed4df5-9226-434c-89ce-91e5d121aeae/painting/annotation",
+        "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/8092bcf0-acc8-4eec-adcf-381c70220dda/painting/annotation",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
-        "on" : "http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/bbed4df5-9226-434c-89ce-91e5d121aeae",
+        "on" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/8092bcf0-acc8-4eec-adcf-381c70220dda",
         "resource" : {
-          "@id" : "http://localhost/api/core/bitstreams/bbed4df5-9226-434c-89ce-91e5d121aeae/content",
+          "@id" : "http://localhost/api/core/bitstreams/8092bcf0-acc8-4eec-adcf-381c70220dda/content",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg"
         }
       } ],
-      "otherContent" : [ "http://localhost/annotation/search?uri=http://localhost/iiif/9275dadb-d83d-4917-a9b4-cbe628b0cc1b/canvas/bbed4df5-9226-434c-89ce-91e5d121aeae" ]
+      "otherContent" : [ {
+        "@id" : "http://localhost/annotation/search?uri=http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/8092bcf0-acc8-4eec-adcf-381c70220dda",
+        "@type" : "sc:AnnotationList"
+      } ]
     } ]
   } ]
 }
