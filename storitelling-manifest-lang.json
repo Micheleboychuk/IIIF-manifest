@@ -1,53 +1,88 @@
 {
   "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/manifest",
+  "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/manifest",
   "@type" : "sc:Manifest",
   "label" : "Test Story",
-  "description" : "Story description",
   "sequences" : [ {
-    "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/sequence/normal",
+    "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/sequence/normal",
     "@type" : "sc:Sequence",
     "label" : "Test Story",
     "canvases" : [ {
-      "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/acac8f2e-c95b-43fb-a327-58cc133d2d3f",
+      "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/e267ff4b-16fb-4ad8-ab4d-57feb690b99b",
       "@type" : "sc:Canvas",
-      "label" : "Canvas from Item 1",
-      "width" : 800,
-      "height" : 1200,
+      "label" : "TEST IIIF",
+      "width" : 3840,
+      "height" : 2160,
       "images" : [ {
-        "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/acac8f2e-c95b-43fb-a327-58cc133d2d3f/painting/annotation",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
-        "on" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/acac8f2e-c95b-43fb-a327-58cc133d2d3f",
         "resource" : {
-          "@id" : "http://localhost/api/core/bitstreams/acac8f2e-c95b-43fb-a327-58cc133d2d3f/content",
+          "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/e267ff4b-16fb-4ad8-ab4d-57feb690b99b/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/e267ff4b-16fb-4ad8-ab4d-57feb690b99b",
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "protocol" : "http://iiif.io/api/image"
+          },
           "format" : "image/jpeg"
-        }
+        },
+        "on" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/e267ff4b-16fb-4ad8-ab4d-57feb690b99b"
       } ],
       "otherContent" : [ {
-        "@id" : "http://localhost/annotation/search?uri=http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/acac8f2e-c95b-43fb-a327-58cc133d2d3f",
+        "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/annotation/search?uri=https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/e267ff4b-16fb-4ad8-ab4d-57feb690b99b",
         "@type" : "sc:AnnotationList"
       } ]
     }, {
-      "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/8092bcf0-acc8-4eec-adcf-381c70220dda",
+      "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/fa1a3f12-8d1a-4bf8-a222-1df0f4f70fe0",
       "@type" : "sc:Canvas",
-      "label" : "Canvas from Item 2",
-      "width" : 800,
-      "height" : 1200,
+      "label" : "test IIIF 203",
+      "width" : 10568,
+      "height" : 7096,
       "images" : [ {
-        "@id" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/8092bcf0-acc8-4eec-adcf-381c70220dda/painting/annotation",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
-        "on" : "http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/8092bcf0-acc8-4eec-adcf-381c70220dda",
         "resource" : {
-          "@id" : "http://localhost/api/core/bitstreams/8092bcf0-acc8-4eec-adcf-381c70220dda/content",
+          "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/fa1a3f12-8d1a-4bf8-a222-1df0f4f70fe0/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg"
-        }
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/fa1a3f12-8d1a-4bf8-a222-1df0f4f70fe0",
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "protocol" : "http://iiif.io/api/image"
+          },
+          "format" : "image/tiff"
+        },
+        "on" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/fa1a3f12-8d1a-4bf8-a222-1df0f4f70fe0"
       } ],
       "otherContent" : [ {
-        "@id" : "http://localhost/annotation/search?uri=http://localhost/iiif/484535fb-14b2-417e-acc4-605294d5b735/canvas/8092bcf0-acc8-4eec-adcf-381c70220dda",
+        "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/annotation/search?uri=https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/fa1a3f12-8d1a-4bf8-a222-1df0f4f70fe0",
+        "@type" : "sc:AnnotationList"
+      } ]
+    }, {
+      "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/7a3fb145-2c9b-435a-ac97-256142beaef5",
+      "@type" : "sc:Canvas",
+      "label" : "Test IIIF 203 numero 2",
+      "width" : 10568,
+      "height" : 7096,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/7a3fb145-2c9b-435a-ac97-256142beaef5/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/7a3fb145-2c9b-435a-ac97-256142beaef5",
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "protocol" : "http://iiif.io/api/image"
+          },
+          "format" : "image/tiff"
+        },
+        "on" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/7a3fb145-2c9b-435a-ac97-256142beaef5"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/annotation/search?uri=https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/7a3fb145-2c9b-435a-ac97-256142beaef5",
         "@type" : "sc:AnnotationList"
       } ]
     } ]
