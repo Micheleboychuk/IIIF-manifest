@@ -1,6 +1,6 @@
 {
   "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/manifest",
+  "@id" : "https://raw.githubusercontent.com/Micheleboychuk/IIIF-manifest/refs/heads/main/storytelling-manifest-lang.json",
   "@type" : "sc:Manifest",
   "label" : "Test Story",
   "sequences" : [ {
